@@ -1,0 +1,21 @@
+.home {
+  .banner {
+    background-image: linear-gradient(
+      0deg,
+      rgb(185, 153, 5) 0%,
+      rgb(118, 106, 6) 100%
+    );
+
+    .text-yellow {
+      color: #ffea00;
+    }
+  }
+
+  .payplan {
+    h3 {
+      @media (min-width: 992px) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
