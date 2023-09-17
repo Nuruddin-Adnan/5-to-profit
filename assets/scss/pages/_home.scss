@@ -1,20 +1,63 @@
 .home {
   .banner {
-    background-image: linear-gradient(
-      0deg,
-      rgb(185, 153, 5) 0%,
-      rgb(118, 106, 6) 100%
-    );
+    background: url(../images/home/banner-bg.png) no-repeat center center/cover;
+    padding: 30px 0 150px 0;
 
-    .text-yellow {
-      color: #ffea00;
+    @media (max-width: 1300px) {
+      .wave {
+        bottom: 0;
+      }
     }
   }
 
-  .payplan {
-    h3 {
-      @media (min-width: 992px) {
-        font-size: 2.5rem;
+  .join-best-program {
+    .title {
+      font-family: Gloss-And-Bloom;
+      text-align: center;
+      margin-bottom: 20px;
+      @media (min-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+    .lead {
+      font-family: Tahoma, sans-serif;
+    }
+  }
+
+  .tittok-board-pay-plan {
+    .title {
+      font-family: Tahoma, sans-serif;
+      color: #7030a0;
+      font-weight: bold;
+
+      @media (min-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+    p {
+      font-family: Tahoma, sans-serif;
+      font-weight: 600;
+    }
+  }
+
+  .total-rewards {
+    .title {
+      font-family: Gloss-And-Bloom;
+      margin-bottom: 20px;
+      @media (min-width: 1200px) {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .canva-templates {
+    .title {
+      font-family: Tahoma, sans-serif;
+      font-weight: 700;
+      color: #00a633;
+
+      @media (min-width: 1200px) {
+        font-size: 40px;
       }
     }
   }

@@ -3,6 +3,14 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   src: url("../fonts/impact.ttf");
 }
+@font-face {
+  font-family: Tahoma, sans-serif;
+  src: url("../fonts/tahoma-bold.ttf");
+}
+@font-face {
+  font-family: Gloss-And-Bloom;
+  src: url("../fonts/Gloss_And_Bloom.ttf");
+}
 /*===// end of abstracts css === */
 /*=== base css start === */
 * {
@@ -30,12 +38,13 @@ a, a:hover {
 }
 
 body {
-  font-family: Impact;
+  font-family: Tahoma, sans-serif;
 }
 
 /*===// end of base css === */
 /*=== components css start === */
 .primary-btn {
+  font-family: Impact;
   font-size: 1.25rem;
   color: #fff;
   font-style: italic;
@@ -44,7 +53,7 @@ body {
   background-image: linear-gradient(90deg, rgb(0, 80, 243) 0%, rgb(10, 75, 143) 100%);
   box-shadow: inset -2px -2px 3px 0px rgba(0, 0, 0, 0.75);
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .primary-btn {
     font-size: 3.5rem;
     padding-inline: 3rem;
@@ -75,14 +84,58 @@ body {
 /*===// end of layout css === */
 /*=== pages start === */
 .home .banner {
-  background-image: linear-gradient(0deg, rgb(185, 153, 5) 0%, rgb(118, 106, 6) 100%);
+  background: url(../images/home/banner-bg.png) no-repeat center center/cover;
+  padding: 30px 0 150px 0;
 }
-.home .banner .text-yellow {
-  color: #ffea00;
+@media (max-width: 1300px) {
+  .home .banner .wave {
+    bottom: 0;
+  }
 }
-@media (min-width: 992px) {
-  .home .payplan h3 {
-    font-size: 2.5rem;
+.home .join-best-program .title {
+  font-family: Gloss-And-Bloom;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .home .join-best-program .title {
+    font-size: 40px;
+  }
+}
+.home .join-best-program .lead {
+  font-family: Tahoma, sans-serif;
+}
+.home .tittok-board-pay-plan .title {
+  font-family: Tahoma, sans-serif;
+  color: #7030a0;
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  .home .tittok-board-pay-plan .title {
+    font-size: 40px;
+  }
+}
+.home .tittok-board-pay-plan p {
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+}
+.home .total-rewards .title {
+  font-family: Gloss-And-Bloom;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .home .total-rewards .title {
+    font-size: 40px;
+  }
+}
+.home .canva-templates .title {
+  font-family: Tahoma, sans-serif;
+  font-weight: 700;
+  color: #00a633;
+}
+@media (min-width: 1200px) {
+  .home .canva-templates .title {
+    font-size: 40px;
   }
 }
 

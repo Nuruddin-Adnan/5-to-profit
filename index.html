@@ -12,6 +12,10 @@
     />
     <link
       rel="stylesheet"
+      href="assets/vendor/Medium-Style-Image-Zoom-Plugin-with-jQuery-zoom-js/css/zoom.css"
+    />
+    <link
+      rel="stylesheet"
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -19,7 +23,7 @@
   <body>
     <!-- === header section start === -->
     <header class="home-header">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light py-1">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img
@@ -64,16 +68,9 @@
 
     <main class="home">
       <!-- === banner section start === -->
-      <section class="banner text-white py-5">
+      <section class="banner text-white position-relative">
         <div class="container">
-          <div class="text-center">
-            <h1><em>FIND OUT HOW YOU CAN MAKE $100 TO $10k</em></h1>
-            <h3><em>USING OUR SIMPLE PLATFORM FOR JUST $5</em></h3>
-            <h4 class="text-yellow">
-              <em>LEARN MORE BY WATCHING THE VIDEO</em>
-            </h4>
-          </div>
-          <div class="row gy-5 align-items-center py-4">
+          <div class="row flex-column align-items-center">
             <div class="col-lg-6">
               <img
                 src="assets/images/home/banner-img.png"
@@ -92,66 +89,156 @@
                 ></iframe>
               </div>
             </div>
-          </div>
-          <div class="text-center mt-4">
-            <a href="#" class="btn primary-btn me-lg-4 me-3">JOIN</a>
-            <a href="#" class="btn primary-btn">LOGIN</a>
+            <div class="col-lg-6">
+              <div class="text-center mt-4">
+                <a href="#" class="btn primary-btn me-lg-4 me-3">JOIN</a>
+                <a href="#" class="btn primary-btn">LOGIN</a>
+              </div>
+            </div>
           </div>
         </div>
+        <img
+          src="assets/images/home/wave.png"
+          alt="wave"
+          class="wave w-100 position-absolute start-0"
+        />
       </section>
       <!-- ===//end of banner section === -->
 
-      <!-- === canva-templates section start === -->
-      <section class="canva-templates py-4">
-        <div class="container text-center">
-          <img
-            src="assets/images/home/canva templates.png"
-            alt="canva-templates"
-            class="img-fluid"
-          />
+      <!-- === join-best-program section start === -->
+      <section class="join-best-program position-relative">
+        <div class="container">
+          <h2 class="title">Join the Best Program Today!</h2>
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-6">
+              <div class="text-center py-4">
+                <img
+                  src="assets/images/home/For-$5.50.png"
+                  alt="for $5.50"
+                  class="img-fluid"
+                />
+              </div>
+              <p class="lead">
+                You will receive exclusive TikTok Marketing Training Video
+                Series for your business. Learn how to create a tiktok account,
+                build your audience and market your business to the tiktok
+                community. Over 2 hours of video courses will teach you to
+                master tiktok and how you will be able to earn money.
+                <br /><br />
+                You will also receive banner and ad credits to promote your
+                business within our website to other members in our community.
+                Crypto, Credit/Debit and Cashapp is accepted.
+                <br /><br />
+                You will also receive rewards by sharing our program with
+                others.
+              </p>
+            </div>
+            <div class="col-lg-6 text-center">
+              <img
+                src="assets/images/home/Tiktok-Marketing-Logo.png"
+                alt="tiktok"
+                class="img-fluid"
+              />
+            </div>
+          </div>
         </div>
       </section>
-      <!-- ===//end of canva-templates section === -->
+      <!-- ===//end of join-best-program section === -->
 
-      <!-- === payplan section start === -->
-      <section class="payplan">
+      <!-- === tittok-board-pay-plan section start === -->
+      <section class="tittok-board-pay-plan my-5">
         <div class="container text-center">
-          <h2><em> Banner and Text Ad Credits are included </em></h2>
-          <h3>OUR PAY PLAN IN THIS ULTIMATE CYCLER PROGRAM</h3>
-          <div class="plane-table py-3">
+          <h2 class="title mb-3">Our TikTok Board Pay Plan</h2>
+          <img
+            src="assets/images/home/TikTok-PayPlan.png"
+            alt="tittok-board-pay-plan"
+            class="img-fluid"
+            data-action="zoom"
+          />
+          <p class="mt-3">
+            Automatic Upgrade - Automatic Re-Entry - Sponsor Bonuses - Instant
+            Payment Bonuses
+          </p>
+        </div>
+      </section>
+      <!-- ===//end of tittok-board-pay-plan section === -->
+
+      <!-- === total-rewards section start === -->
+      <section class="total-rewards my-5">
+        <div class="container">
+          <h2 class="title">Total Rewards:</h2>
+          <div class="text-center">
             <img
-              src="assets/images/home/Payplan.png"
-              alt="payplan table"
+              src="assets/images/home/$1555.png"
+              alt="total-rewards"
               class="img-fluid"
             />
           </div>
         </div>
       </section>
+      <!-- ===//end of total-rewards section === -->
+
+      <!-- === canva-templates section start === -->
+      <section class="canva-templates">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-5">
+              <h2 class="title mb-2">EXCLUSIVE ENTRY!</h2>
+              <p class="lead">
+                When you cycle out of TikTok Board 2, you will get a free entry
+                to our Canva Board 1 and receive our Canva Templates plus our
+                social media pack. You will also receive banner and text ad
+                credits.
+                <br /><br />
+                Automatic Upgrade, Automatic Re-Entry plus sponsor bonuses.
+                Check out the payplan down below for more information.
+              </p>
+            </div>
+            <div class="col-lg-7">
+              <img
+                src="assets/images/home/canva templates.png"
+                alt="canva-templates"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===//end of canva-templates section === -->
+
+      <!-- === payplan section start === -->
+      <section class="payplan py-5">
+        <div class="container text-center">
+          <div class="plane-table py-3">
+            <img
+              src="assets/images/home/Payplan.png"
+              alt="payplan table"
+              class="img-fluid"
+              data-action="zoom"
+            />
+          </div>
+          <p class="lead">
+            This Pay Plan uses a company forced structure. Anyone who invites
+            anyone would fall in the overall company matrix. No missing spots,
+            first come, first serve. Each board is a 1x4 structure with auto
+            upgrades and re-entries. Only need to purchase 1 positions on Tiktok
+            Board 1 and the rest will be taken care of. There is no income
+            guaranteed, There are NO REFUNDS. Income potential is unlimited, it
+            will depend on everyones effort to grow this business. Any
+            questions, please contact us or view our faqs. Crypto, Cashapp and
+            Debit/Credit are accepted.
+          </p>
+        </div>
+      </section>
       <!-- ===//end of payplan section === -->
     </main>
 
-    <!-- === footer section start === -->
-    <footer class="footer pb-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <p class="text-center">
-              This Pay Plan uses a company forced structure. Anyone who invites
-              anyone would fall in the overall company matrix. No missing spots,
-              first come, first serve. Each board is a 2x2 structure with auto
-              upgrades and re-entries. Only need to purchase 1 positions on
-              Profit Board 1 and the rest will be taken care of. There is no
-              income guaranteed, There are NO REFUNDS. Income potential is
-              unlimited, it will depend on everyones effort to grow this
-              business. Any questions, please contact us or view our faqs.
-              Crypto, Cashapp and Debit/Credit are accepted.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- ===//end of footer section === -->
-
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/vendor/Medium-Style-Image-Zoom-Plugin-with-jQuery-zoom-js/js/zoom.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
